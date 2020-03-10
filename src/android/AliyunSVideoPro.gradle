@@ -1,0 +1,33 @@
+android {
+    defaultConfig {
+        minSdkVersion 18
+    }
+}
+
+apply from: 'thirdparty-lib/config.gradle'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation externalAndroidDesign
+    implementation externalAndroidRecyclerView
+    implementation externalAndroidSupportV4
+    implementation externalAndroidAppCompatV7
+    implementation externalGSON
+    implementation externalOKHTTP
+    implementation externalAliyunOSS
+    implementation externalEventBus
+    implementation externalFaceUnity
+//    implementation externalAliyunVodUpload
+//    implementation externalAlivcConan
+//    implementation externalAlivcCore
+//    implementation externalAlivcFFmpeg
+//    implementation externalAliyunRace
+//    api externalSvideopro
+    api 'com.liulishuo.filedownloader:library:1.4.1'
+    implementation group: 'org.apache.ant', name: 'ant', version: '1.7.1'
+    implementation (externalGlide){
+        exclude group: "com.android.support"
+    }
+
+    implementation externalAndroidMultiDex
+}
