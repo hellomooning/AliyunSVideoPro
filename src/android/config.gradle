@@ -50,18 +50,19 @@ ext {
     externalMqtt = 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
     externalHttpCore = 'org.apache.httpcomponents:httpcore:4.4.1'
     externalFaceUnity = 'com.faceunity:nama:6.0.0-lite'
-    externalAliyunRace = 'com.aliyun.race:AliyunRace:1.0.0'
+    externalAliyunRace = 'com.aliyun.race:AliyunRace:1.2.0'
 
     //Aliyun SDK
-    externalAliyunVodUpload = 'com.aliyun.video.android:upload:1.5.5'
-    externalAlivcConan = 'com.alivc.conan:AlivcConan:1.0.2'
+    externalAliyunVodUpload = 'com.aliyun.video.android:upload:1.6.0'
+    externalAlivcConan = 'com.alivc.conan:AlivcConan:1.0.3'
 
-    externalAlivcFFmpeg = 'com.aliyun.video.android:AlivcSvideoFFmpeg:1.1.0'
+    externalAlivcFFmpeg =  'com.aliyun.video.android:AlivcFFmpeg:2.0.0'
     externalAlivcCore = 'com.aliyun.video.android:core:1.2.2'
-    externalSvideopro = 'com.aliyun.video.android:svideopro:3.14.0'
-    externalSvideostandard = 'com.aliyun.video.android:svideostandard:3.14.0'
-    externalSvideosnap = 'com.aliyun.video.android:svideosnap:3.14.0'
-
+    externalSvideopro = 'com.aliyun.video.android:svideopro:3.16.0'
+    externalSvideostandard = 'com.aliyun.video.android:svideostandard:3.16.0'
+    externalSvideosnap = 'com.aliyun.video.android:svideosnap:3.16.0'
+    externalPlayerFull = 'com.aliyun.sdk.android:AliyunPlayer:4.7.3-full'
+    externalPlayerPart = 'com.aliyun.sdk.android:AliyunPlayer:4.7.3-part'
     //Android SDK/Tools Version
     externalCompileSdkVersion = 29
     externalBuildToolsVersion = '29.0.0'
