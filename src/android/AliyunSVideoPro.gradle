@@ -7,7 +7,7 @@ android {
 apply from: 'thirdparty-lib/config.gradle'
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation fileTree(dir: 'libs/aliyun_svideo', include: ['*.jar', '*.aar'])
     implementation externalAndroidDesign
     implementation externalAndroidRecyclerView
     implementation externalAndroidSupportV4
