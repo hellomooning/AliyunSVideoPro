@@ -16,19 +16,18 @@
 ### 2.调用
 
     declare let cordova: any;
-    uploadUrl = '';
 
 #### 视频拍摄
-    cordova.plugins.AliyunSVideoPro.startRecordSetting(uploadUrl);
+    cordova.plugins.AliyunSVideoPro.startRecordSetting();
 
 #### 快速拍摄
-    cordova.plugins.AliyunSVideoPro.startRecord(uploadUrl);
+    cordova.plugins.AliyunSVideoPro.startRecord();
 
 #### 视频裁剪
     cordova.plugins.AliyunSVideoPro.startCropSetting();
 
 #### 视频编辑
-    cordova.plugins.AliyunSVideoPro.startEditSetting(uploadUrl);
+    cordova.plugins.AliyunSVideoPro.startEditSetting();
 
 #### 美颜
     cordova.plugins.AliyunSVideoPro.startBeauty();
