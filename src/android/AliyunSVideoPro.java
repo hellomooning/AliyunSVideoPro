@@ -20,7 +20,6 @@ import com.aliyun.svideo.sdk.external.struct.encoder.VideoCodecs;
 import com.aliyun.svideo.sdk.external.struct.snap.AliyunSnapVideoParam;
 import com.aliyun.svideo.recorder.bean.RenderingMode;
 import com.aliyun.svideo.recorder.activity.AlivcSvideoRecordActivity;
-import com.aliyun.svideo.editor.publish.UploadActivity;
 
 /**
  * This class echoes a string called from JavaScript.
@@ -39,10 +38,6 @@ public class AliyunSVideoPro extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        String url = args.getString(0);
-        if(!TextUtils.isEmpty(url) && !"null".equals(url)) {
-            UploadActivity.BASE_URL = url;
-        }
         if (action.equals("test")) {
             String message = args.getString(0);
             this.showToast(message, callbackContext);
